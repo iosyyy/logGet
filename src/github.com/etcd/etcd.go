@@ -97,7 +97,7 @@ func GetListenLogConfByKey(ctx context.Context, key string) *LogListenConf {
 
 /*func getEtcd() (err error) {
 /*client, err := clientV3.New(clientV3.Config{
-	Endpoints:   []string{"8.136.225.205:2379"},
+	Endpoints:   []string{"127.0.0.1:2379"},
 	DialTimeout: 5 * time.Second,
 })*/
 /*go func() {
